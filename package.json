@@ -1,0 +1,18 @@
+{
+  "name": "education-notification",
+  "version": "1.0.0",
+  "description": "爬取亳州三县一区政府通知公告并提供邮件通知功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gaohuafeng",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "koa": "^2.13.1",
+    "koa2-cors": "^2.0.6",
+    "superagent": "^6.1.0"
+  }
+}
